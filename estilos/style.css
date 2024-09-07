@@ -1,0 +1,183 @@
+
+body{
+    position: relative;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #DDDDDD;
+    font-family: Times, Times New Roman, serif
+}
+/* cabeçalho*/
+header{
+    padding: 10px;
+    background-color: #231640;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#link-header{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo p{
+    margin-left: 10px;
+    color: #F2275D;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.icone{
+    margin-left: 20px;
+    width: 3.5rem;
+}
+
+#repositorio{
+    color: #14D90D;
+    font-size: 1.34rem;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#repositorio:hover{
+    text-decoration: underline;
+}
+/*------------- fim cabeçalho -------------*/
+
+
+
+
+#titulo{
+    margin: auto;
+    text-align: center;
+    width: 40vw;
+    
+}
+#titulo h1{
+    color: #F2275D;
+    font-size: 3rem;
+    margin-bottom: -15px;
+}
+#titulo p{
+    color: #0B8AD9;
+    font-size: 1.5rem;
+}
+
+
+
+
+#campoPesquisa {
+    margin: auto; /* Espaçamento abaixo de cada seção */
+    width: fit-content;
+}
+
+/* Estiliza os inputs dentro das seções */
+#campoPesquisa input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+#campoPesquisa button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #30475E; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+#error{
+    width: 20PX;
+}
+
+/* css dos artistas exibidos na tela*/
+
+#descricao-container{
+    margin: auto;
+    max-width: 70rem;
+    padding-bottom: 20rem; 
+}
+
+.conteudo{
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.80rem;
+    background-color: #231640;
+    border: 1px solid #0B8AD9;
+    width: 14rem;
+    
+}
+
+.conteudo img{
+    object-fit: cover;
+    border-radius: 6px;
+    width: 100%;
+    height: 12rem;
+}
+
+.conteudo a{
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: #F2275D;
+}
+.conteudo a:hover{
+    text-decoration: underline #14D90D;
+}
+
+
+#descricao{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly
+}
+
+/*------ FIM css dos artistas exibidos na tela ------------------*/
+
+
+
+
+/* css dos FOOTER*/
+
+footer{
+    bottom: 0%;
+    unicode-bidi: isolate;
+    overflow-x: hidden;
+    margin-top: 8vh;
+    background-color: #231640; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding-top: 10px; /* Espaçamento interno */
+    padding-bottom: 8px;
+    width: 100%; /* Largura total da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10em; 
+}
+footer h2{
+    color: #F2275D;
+}
+footer p{
+    width: 80vw;
+    margin: auto;
+    font-size: 1.2rem;
+    color: #0B8AD9;
+}
+footer p a{
+    color: #F2275D;
+}
+
+/* Fim css dos FOOTER*/

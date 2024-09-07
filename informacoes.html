@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/infromacoes.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a id="link-header" href="index.html">
+            <span class="logo">
+                <img class="icone" src="imagens/icone.png" alt="">
+                <p>MUSIC.MP3</p>
+            </span>
+            <a id="repositorio" target="_blank" href="https://github.com/Edu1769">Repositorio</a>
+        </a>
+    </header>
+    <main >
+
+        <section id="conteudo">
+            <img id="fotoArtista" src="">
+            <h2 id="nomeArtista"></h2>
+        </section>
+
+        <section id="descricao-artista">
+            <p id="descricaoArtista"></p>
+            <ul id="informacaoExtra">
+                <li id="musicaArtista"></li>
+                <li id="seguidorArtista"> </li>
+            </ul>
+        </section>
+
+    </main>
+
+
+    <script src="js/dados.js"></script>
+    <script src="js/conteudo.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nome = urlParams.get('nome');
+        const foto = urlParams.get('foto');
+        const desc = urlParams.get('descricao');
+        const musica = urlParams.get('musica')
+        const seguidor = urlParams.get('seguidores')
+
+        document.getElementById('nomeArtista').textContent = nome;
+        document.getElementById('descricaoArtista').textContent = desc;
+        document.getElementById('fotoArtista').src = foto;
+        document.getElementById('musicaArtista').textContent = "Musica mais famosa: "+musica;
+        document.getElementById('seguidorArtista').textContent = "Seguidores: "+seguidor;
+    </script>
+</body>
+</html>
+
+
