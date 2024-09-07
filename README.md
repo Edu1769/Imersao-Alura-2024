@@ -2,6 +2,9 @@
 
  ##  **Music.mp3: Sua playlist personalizada, direto do palco para o seu fone!**
 
+![image](https://github.com/user-attachments/assets/f0afddee-c214-43b6-bd22-0daa65b611c5)
+
+
 **O que é?**
 
 Já pensou em ter todas as suas bandas e artistas favoritos reunidos em um só lugar? O Music.mp3 é a sua playlist personalizada, onde você encontra informações detalhadas sobre seus artistas preferidos com apenas alguns cliques! 
